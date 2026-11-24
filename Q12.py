@@ -1,0 +1,5 @@
+p = bool(int(input("Enter 1 for True or 0 for False: ")))
+q = bool(int(input("Enter 1 for True or 0 for False: ")))
+print("AND:", p and q)
+print("OR:", p or q)
+print("NOT p:", not p)

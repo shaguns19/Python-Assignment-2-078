@@ -1,0 +1,5 @@
+a = float(input("Enter a: "))
+b = float(input("Enter b: "))
+c = float(input("Enter c: "))
+result = a + b * c ** 2 - (a / (b + 1))
+print("Expression result:", result)
